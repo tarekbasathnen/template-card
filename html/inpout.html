@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Glozin</title>
+    <link rel="stylesheet" href="../css/assets/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="../css/assets/all.min.css" /> -->
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;300;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/imge/bootstrap_icon_198286.webp" style="color: #13111c;">
+</head>
+<body>
+    <div class="login">
+        <div class="container  d-flex justify-content-center ">
+            <div class="row">
+                <div class="login-box col-lg-4 col-md-3 col-ms-4 mt-5 mb-5">
+                    <div class="login-text fs-2 fw-bold text-center mt-5 mb-1">
+                        <p class="fw-bold">Login</p>
+                    </div>
+                    <div class="container input-box">
+                        <div class="p-1 input-box search">                           
+                            <label for="formGroupExampleInput" class="form-label">Email</label>
+                            <i class="fa fa-user"></i>
+                            <input type="email" class="form-control input-tx" id="inputEmail" placeholder="Type Your Email">
+                            <div id="notice"></div>
+                        </div>
+                        <div class="p-1 search">
+                            <label for="formGroupExampleInput2" class="form-label">Password</label>
+                            <i class="fa fa-lock"></i>
+                            <input type="password" class="form-control input-tx" id="inputPassword" placeholder="Type Your password">
+                        <div id="passwordText"></div>
+                        </div>
+                        <p class="text-forgot d-flex flex-row-reverse">Forgot Password?</p>
+                        <div class="button text-center ">
+                            <button class=" but rounded-pill main-but p-2" onclick="checkInput()">LOGIN</button>
+                        </div> 
+                        <div id="textErorr" class="text-center"></div>
+                    </div>
+                
+                    <div class="or-sing ">
+                        <div class="login-link text-center mp-3 mt-3">
+                            <P>Or Sing Up Using</P>
+                            <ul class="d-flex list-unstyled gap-5 justify-content-center">
+                                <li>
+                                    <a class="d-block text-light" href="#">
+                                        
+                                        <i class="fa-brands fa-facebook facebook rounded-circle p-2"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="d-block text-light" href="#">
+                                        <i class="fa-brands fa-twitter twitter rounded-circle p-2"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="d-block text-light" href="#">
+                                        <i class="fa-brands fa-google google rounded-circle p-2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/assets/bootstrap.bundle.min.js"></script>
+    <script src="../js/assets/all.min.js"></script>
+    <script src="../js/login.js"></script> 
+
+</body>
+</html>

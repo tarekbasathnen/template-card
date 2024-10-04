@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glozin example</title>
+    <link rel="stylesheet" href="/css/assets/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/assets/all.min.css"> -->
+    <link rel="stylesheet" href="/css/glozin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;300;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/imge/bootstrap_icon_198286.webp" style="color: #009688;">
+</head>
+<body>
+  <nav class="navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa-brands fa-bootstrap fa-2xl " style="color: #794AFF;"></i>
+      </a>
+      <ul class="nav d-flex " >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Demos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Perfomance</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get Support
+          </a>
+          <ul class="dropdown-menu" style="background-color: #13111c;">
+            <li><a class="dropdown-item" href="/glozin.html?query=nature">Nature</a></li>
+            <li><a class="dropdown-item" href="/glozin.html?query=tigers">Tigers</a></li>
+            <li><a class="dropdown-item" href="/glozin.html?query=people">People</a></li>
+            <li><a class="dropdown-item" href="/glozin.html?query=ocean">Ocean</a></li>
+            <li><a class="dropdown-item" href="/glozin.html?query=pears">Pears</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Open Store Free</a>
+        </li>
+      </ul>
+      <div class="buynow-btn justify-content-end d-flex">
+        <button type="button" class="btn rounded-pill btn-primary" onclick = "logoutProfile()"><i class="fa-solid fa-feather-pointed"></i><span class="p-2">Log out</span></button>
+      </div>
+        
+    </div> 
+  </nav>
+  <div class="glozin-text d-flex justify-content-center align-items-center">
+    <div class="container">
+      <div class="text-center text-light ">
+        <h1 class="slider-heabing fs-60 mt-15 mb-15"><span>Glozin theme</span>
+          <br>
+          <span>Theme Your Store-Your Way</span>
+        </h1>
+        <p class="section-desciption color-white mt-0 mb-45">The bost theme for every client.Adapts to any website. Built with flexilbility,quality,perfomance and customer experience in mind.</p>
+        <div class="slider-button-wrapper d-flex justify-content-center align-items-center ">
+          <a class="btn rounded-pill scroll-to active" href="#">Discover Demos</a>
+          <a class="btn rounded-pill btn-ootline " href="#">Open Store Free</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="glozin-card">
+    <div class="container">
+      <div class="row" id="create-row">
+        <!-- <div class="col-sm-6 col-md-4 col-lg-4 mt-3 card-box" id="create-card">  
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="slider-controls d-flex container">
+    <span id="prev" class="prev"><a id="Previous-page" class="page-link">Previous</a></span>
+    <span id="pagination-text" class="pagination-texts"></span>
+    <span id="next" class="next"><a id="next-page" class="page-link" href="#">Next</a></span>
+  </div>
+  <script src="/js/assets/bootstrap.bundle.min.js"></script>
+  <script src="/js/assets/all.min.js"></script>
+  <script src="/js/glozin.js"></script>
+</body>
+</html>
